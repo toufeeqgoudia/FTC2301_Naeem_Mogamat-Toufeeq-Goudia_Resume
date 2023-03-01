@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
@@ -49,28 +49,23 @@ body {
 
 /*header*/
 .container {
-    position: relative;
     width: 100%;
     max-width: 1000px;
     background: cornflowerblue;
 }
 
 .top {
-    position: relative;
-    display: grid;
     grid-template-columns: 1fr -5fr;
     padding: 40px;
 }
 
 .box {
-    position: relative;
     width: 100%;
     display: flex;
     grid-template-columns: 1 / -1;
 }
 
 .profileImage {
-    position: relative;
     width: 200px;
     border-radius: 50%;
     margin: 5px;
@@ -78,14 +73,12 @@ body {
 }
 
 .profileTitle {
-    position: relative;
     display: grid;
     align-items: center;
     align-content: center;
 }
 
 .profileJob {
-    position: relative;
     color: blue;
     font-size: 31px;
 }
@@ -93,7 +86,6 @@ body {
 
 /* main */
 .content_container {
-    position: relative;
     width: 100%;
     max-width: 1000px;
     background: whitesmoke;
@@ -110,7 +102,6 @@ body {
 
 /* footer */
 .contact_container {
-    position: relative;
     width: 100%;
     max-width: 1000px;
     background: whitesmoke;
