@@ -55,7 +55,6 @@ body {
 }
 
 .top {
-    grid-template-columns: 1fr -5fr;
     padding: 40px;
 }
 
