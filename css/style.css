@@ -4,82 +4,87 @@
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
-
 body {
     background: white;
     width: 100%;
-    justify-content: center;
-    align-items: center;
 }
-
-
+/* menu */
+.menu {
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+    padding-top: 35px;
+}
+.menu_description {
+    font-size: 19px;
+    margin-left: 40px;
+    color: white;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
 /* common styles */
 .title{
     font-size: 30px;
-    color: black;
+    margin-left: 40px;
+    color: white;
     padding-top: 35px;
+    grid-column: 1;
 }
-
 .sub_title{
     font-size: 25px;
-    color: black;
+    margin-left: 5px;
+    color: white;
     margin-top: 15px;
+    grid-column: 2;
 }
-
 .description {
     font-size: 19px;
-    color: black;
+    margin-left: 5px;
+    margin-right: 40px;
+    color: white;
     margin-top: 5px;
     padding-bottom: 20px;
+    grid-column: 2;
 }
-
-.menu {
-    font-size: 25px;
-    color: black;
-    padding-top: 35px;
+.date {
+    font-size: 15px;
+    color: rgb(0, 259, 179);
+    margin-left: 40px;
+    grid-column: 1;
 }
-
-.menu_description {
-    font-size: 19px;
-    color: black;
-    margin-top: 5px;
-    padding-bottom: 20px;
-}
-
-
 /*header*/
 .container {
     width: 100%;
     max-width: 1000px;
-    background: cornflowerblue;
+    background: rgb(0, 0, 0);
 }
-
 .top {
     padding: 40px;
 }
-
 .box {
     width: 100%;
     display: flex;
     grid-template-columns: 1 / -1;
 }
-
 .profileImage {
     width: 200px;
     border-radius: 50%;
     margin: 5px;
     padding: 20px;
 }
-
 .profileTitle {
     display: grid;
     align-items: center;
     align-content: center;
 }
-
 .profileJob {
-    color: blue;
+    color: rgb(0, 259, 179);
     font-size: 31px;
+}
+
+.profileName {
+    font-size: 60px;
+    color: white;
 }
 
 
@@ -87,15 +92,27 @@ body {
 .content_container {
     width: 100%;
     max-width: 1000px;
-    background: whitesmoke;
+    background: rgb(9, 9, 9);
 }
-
-.content_top {
-    margin-left: 30px;
-    margin-right: 30px;
-    align-items: center;
-    align-content: center;
-    border-bottom: solid;
+.content_box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.skill_list {
+    font-size: 19px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.hobby_list {
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    list-style: none;
+    display: flex;
 }
 
 
@@ -103,13 +120,32 @@ body {
 .contact_container {
     width: 100%;
     max-width: 1000px;
-    background: whitesmoke;
+    background: rgb(13, 13, 13);
     padding-bottom: 50px;
 }
-
 .contact_box {
     margin-left: 30px;
     margin-right: 30px;
     align-items: center;
     align-content: center;
+}
+.contact_title {
+    font-size: 30px;
+    margin-left: 12px;
+    color: white;
+    padding-top: 35px;
+}
+.contact_list {
+    font-size: 19px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+}
+
+
+/* Icon colours */
+.fa-gamepad, .fa-futbol, .fa-photo-film, .fa-linkedin, .fa-envelope, .fa-instagram {
+    color: rgb(0, 259, 179);
 }
