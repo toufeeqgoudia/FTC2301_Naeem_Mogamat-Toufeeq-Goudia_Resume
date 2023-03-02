@@ -5,23 +5,34 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 body {
-    background: white;
+    background: dimgray;
     width: 100%;
 }
-/* menu */
+
+
+/* navigation bar */
 .menu {
-    font-size: 25px;
-    margin-left: 40px;
-    color: white;
-    padding-top: 35px;
+    background-color: black;
+    margin: 0px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
 }
-.menu_description {
-    font-size: 19px;
-    margin-left: 40px;
+
+.menu a {
+    font-size: 20px;
     color: white;
-    margin-top: 5px;
-    padding-bottom: 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+    padding: 16px 24px; 
 }
+
+.menu a:hover {
+    background: rgb(0, 259, 179);
+    color: black;
+}
+
+
 /* common styles */
 .title{
     font-size: 30px;
@@ -52,14 +63,17 @@ body {
     margin-left: 40px;
     grid-column: 1;
 }
+
+
 /*header*/
 .container {
     width: 100%;
     max-width: 1000px;
+    height: 225px;
     background: rgb(0, 0, 0);
 }
 .top {
-    padding: 40px;
+    padding: 20px;
 }
 .box {
     width: 100%;
@@ -109,10 +123,14 @@ body {
 .hobby_list {
     font-size: 20px;
     color: white;
-    padding-top: 20px;
+    margin-left: 40px;
     padding-bottom: 40px;
+    padding-top: 10px;
     list-style: none;
-    display: flex;
+}
+
+.hobby_list li {
+    padding-bottom: 5px;     /* to add space inbetween list */
 }
 
 
