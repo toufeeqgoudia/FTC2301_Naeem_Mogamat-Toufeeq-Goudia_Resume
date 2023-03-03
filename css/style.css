@@ -14,7 +14,6 @@ body {
 .menu {
     background-color: black;
     margin: 0px;
-    overflow: hidden;
     position: sticky;
     top: 0;
 }
@@ -162,8 +161,30 @@ body {
     display: flex;
 }
 
+.btt {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+.btt a {
+    font-size: 12px;
+    color: rgb(0, 259, 179);
+}
+
+.btt a:hover {
+    color: rgb(0, 259, 179);
+}
 
 /* Icon colours */
-.fa-gamepad, .fa-futbol, .fa-photo-film, .fa-linkedin, .fa-envelope, .fa-instagram {
+.fa-gamepad, .fa-futbol, .fa-photo-film, .fa-linkedin, .fa-phone, .fa-instagram, .fa-location-dot, .fa-github, .fa-arrow-up {
     color: rgb(0, 259, 179);
+}
+
+.contact_list a {
+    color: white;
+}
+
+.contact_list a:hover {
+    color: white;
 }
