@@ -155,7 +155,8 @@ body {
     width: 100%;
     max-width: 1000px;
     background: rgb(25, 25, 25);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    display: flex;
 }
 .contact_box {
     margin-left: 30px;
@@ -172,10 +173,48 @@ body {
 .contact_list {
     font-size: 19px;
     color: rgb(230, 230, 230);
+    margin-left: 40px;
     padding-top: 20px;
     padding-bottom: 10px;
     list-style: none;
+    display: grid;
+}
+
+.contact_list li {
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.form {
+    max-width: 400px;
+    margin-top: 100px;
+    border: 3px solid rgb(0, 259, 179);
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin: 10px;
+    width: 200px;
+}
+
+.form select {
+    margin: 10px;
+    width: 200px;
+}
+
+.form textarea {
+    margin: 10px;
+    width: 350px;
+    height: 100px;
+}
+
+.submit-button {
+    color: rgb(5, 5, 5);
+    background: rgb(0, 259, 179);
+    max-width: 70px;
 }
 
 .btt {
@@ -194,7 +233,7 @@ body {
 }
 
 /* Icon colours */
-.fa-gamepad, .fa-futbol, .fa-photo-film, .fa-linkedin, .fa-phone, .fa-instagram, .fa-location-dot, .fa-github, .fa-arrow-up {
+.fa-gamepad, .fa-futbol, .fa-photo-film, .fa-linkedin, .fa-phone, .fa-instagram, .fa-location-dot, .fa-github, .fa-arrow-up, .fa-envelope {
     color: rgb(0, 259, 179);
 }
 
