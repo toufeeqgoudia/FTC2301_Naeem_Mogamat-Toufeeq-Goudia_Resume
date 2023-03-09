@@ -87,7 +87,7 @@ body {
 .container {
     width: 100%;
     max-width: 1000px;
-    height: 225px;
+    height: 100%;
 }
 
 .top {
@@ -254,4 +254,276 @@ body {
 
 .contact_list a:hover {
     color: rgb(230, 230, 230);
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media screen and (max-width: 850px) {
+    .date {
+        font-size: 12px;
+    }
+    .profileJob {
+        font-size: 24px;
+    }
+    .profileName {
+        font-size: 48px;
+    }
+    .profileImage {
+        width: 175px;
+        height: 175px;
+        margin-left: 10px;
+        
+    }
+    .contact_list {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .profileImage {
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .contact_list {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .title{
+        font-size: 27px;
+        margin-left: 30px;
+        padding-top: 35px;
+    }
+    .date {
+        font-size: 11px;
+        margin-left: 30px;
+    }
+    .sub_title{
+        font-size: 21px;
+        margin: 10px;
+        
+    }
+    .description {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+    .skill_list {
+        font-size: 16px;
+    }
+    .hobby_list {
+        font-size: 16px;
+    }
+    .contact_title {
+        font-size: 27px;
+    }
+    .form {
+        max-width: 300px;
+        margin-right: 15px;
+    }
+    .form textarea {
+        width: 250px;
+    }
+    .menu a {
+        font-size: 17px;
+        padding: 14px 21px; 
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container {
+        height: 150px;
+        width: 100%;
+    }
+    .hero{
+        height: 150px;
+        width: 100%;
+    }
+    .profileTitle {
+        margin-top: 20px;
+    }
+    .profileImage {
+        width: 125px;
+        height: 125px;
+        margin-top: 0;
+    }   
+    .profileJob {
+        font-size: 20px;
+    }
+    .profileName {
+        font-size: 38px;
+    }
+    .menu a {
+        font-size: 15px;
+        padding: 11px 17px; 
+    }
+    .contact_list {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 570px){
+    .container {
+        height: 150px;
+        width: 100%;
+    }
+    .hero{
+        height: 150px;
+        width: 100%;
+    }
+    .profileTitle {
+        margin-top: 20px;
+    }
+    .profileImage {
+        width: 115px;
+        height: 115px;
+        margin-top: 0;
+    }   
+    .profileJob {
+        font-size: 18px;
+    }
+    .profileName {
+        font-size: 35px;
+    }
+    .menu a {
+        font-size: 12px;
+        padding: 9px 15px; 
+    }
+    .contact_list {
+        font-size: 11px;
+        margin-left: 2px;
+    }
+    .title{
+        font-size: 22px;
+        margin-left: 20px;
+        padding-top: 35px;
+    }
+    .date {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    .sub_title{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .description {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+    .skill_list {
+        font-size: 14px;
+    }
+    .hobby_list {
+        font-size: 14px;
+    }
+    .contact_title{
+        text-align: center;
+        font: 22px;
+    }
+    .contact_container {
+        display: grid;
+    }
+    .form {
+        margin-top: 20px auto;
+    }
+    .contact_list li {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+}
+    
+@media screen and (max-width: 500px) {
+    .container {
+        height: 240px;
+    }
+    .top {
+        height: 240px;
+        text-align: center;
+    }
+    .box {
+        display: contents;
+        height: 240px;
+    }
+    .hero {
+        height: 350px;
+    }
+    .profileTitle {
+        text-align: center;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    .menu {
+        position: sticky;
+        top: 0;
+        margin-top: -100px;
+    }
+    .menu a {
+        font-size: 10px;
+        padding: 7px 13px; 
+    }
+    .content_box {
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+    .date {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .sub_title {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .description {
+        margin-left: 20px;
+    }
+    .skill_list {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .hobby_list {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .contact_title {
+        text-align: center;
+    }
+    .form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .profileImage {
+        width: 100px;
+        height: 100px;
+    }
+    .profileJob {
+        font-size: 14px;
+    }
+    .profileName {
+        font-size: 29px;
+    }
+    .menu {
+        margin-top: -160px;
+    }
+    .menu a {
+        font-size: 9px;
+        padding: 7px 10px; 
+    }
+    .form {
+        margin: 0 auto;
+    }
 }
